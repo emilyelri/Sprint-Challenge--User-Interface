@@ -70,6 +70,7 @@ p {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .navigation-bar a {
