@@ -186,6 +186,13 @@ p {
     padding-right: 0;
 }
 
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-around;
+}
+
 .full-text {
     width: 90%;
     margin-bottom: 25px;
