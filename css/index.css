@@ -187,19 +187,31 @@ p {
 }
 
 .about-page {
-    display: flex;
-    flex-wrap: wrap;
     width: 95%;
-    justify-content: space-around;
 }
 
 .full-text {
-    width: 90%;
-    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.split-texts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.split-texts img {
+    margin-bottom: 15px;
+}
+
+.half-text {
+    width: 45%;
 }
 
 hr {
-    margin-bottom: 25px;
+    margin: 25px;
 }
 
 footer {
@@ -213,6 +225,7 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    margin-top: 30px;
     font-size: 14px;
 }
 
