@@ -231,6 +231,26 @@ hr {
     margin: 25px 0 45px;
 }
 
+.contact-page {
+    width: 95%;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+form .userInput {
+    height: 100px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-family: 'Rubik', sans-serif;
+    margin: 0 0 10px 5px;
+}
+
 footer {
     width: 100%;
     background: black;
