@@ -190,8 +190,12 @@ p {
     width: 95%;
 }
 
+.about-page .banner {
+    margin-bottom: 0px;
+}
+
 .full-text {
-    padding: 0 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .split-texts {
@@ -203,15 +207,28 @@ p {
 }
 
 .split-texts img {
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .half-text {
     width: 45%;
 }
 
+button {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 10%;
+
+    padding: 6px 18px;
+    margin-top: 12px;
+}
+
 hr {
-    margin: 25px;
+    margin: 25px 0 45px;
 }
 
 footer {
