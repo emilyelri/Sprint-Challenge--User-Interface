@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+.navigation-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation-bar a {
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-right: 20px;
+}
+
+.banner {
+    width: 800px;
+    margin: 30px auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +125,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -126,6 +186,84 @@ p {
     padding-right: 0;
 }
 
+.about-page {
+    width: 95%;
+}
+
+.about-page .banner {
+    margin-bottom: 0px;
+}
+
+.full-text {
+    padding: 20px 20px 0px 20px;
+}
+
+.split-texts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.split-texts img {
+    margin: 15px 0;
+}
+
+.half-text {
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px) {
+    .half-text {
+        width: 100%;
+    }
+  }
+
+button {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 10%;
+
+    padding: 6px 18px;
+    margin-top: 12px;
+
+    transition: all .2s ease-out;
+}
+
+button:hover {
+    background-color: coral;
+    color: white;
+}
+
+hr {
+    margin: 25px 0 45px;
+}
+
+.contact-page {
+    width: 95%;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+form .userInput {
+    height: 100px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-family: 'Rubik', sans-serif;
+    margin: 0 0 10px 5px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -137,6 +275,7 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    margin-top: 30px;
     font-size: 14px;
 }
 
