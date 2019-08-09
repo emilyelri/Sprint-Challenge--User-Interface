@@ -214,6 +214,12 @@ p {
     width: 45%;
 }
 
+@media only screen and (max-width: 600px) {
+    .half-text {
+        width: 100%;
+    }
+  }
+
 button {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
