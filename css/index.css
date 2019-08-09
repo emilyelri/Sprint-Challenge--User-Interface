@@ -186,6 +186,15 @@ p {
     padding-right: 0;
 }
 
+.full-text {
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
 footer {
     width: 100%;
     background: black;
