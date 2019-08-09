@@ -66,6 +66,26 @@ p {
     line-height: 1.4;
 }
 
+.navigation-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.navigation-bar a {
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-right: 20px;
+}
+
+.home-banner {
+    width: 800px;
+    margin: 30px auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
